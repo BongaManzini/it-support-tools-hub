@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V5
+.Trashes
+
+# Logs
+*.log
+logs/
+
+# Node (if tooling is ever added)
+node_modules/
+
+# Build / dist artifacts
+dist/
+build/
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+
+# OS generated
+Thumbs.db
+ehthumbs.db
