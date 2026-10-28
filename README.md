@@ -112,10 +112,10 @@ Click the **IT Support Tools Hub** icon in the Chrome toolbar. The side panel op
 
 ```
 Ticket Auto-Closer & Macro Engine/
-├── manifest.json              # Extension manifest (MV3)
+├── manifest.json       # Extension manifest (MV3)
 ├── scripts/
-│   ├── background.js          # Service worker – side panel launcher & message router
-│   └── content_script.js      # Injected automation engine & DOM recorder
+│  ├── background.js     # Service worker – side panel launcher & message router
+│  └── content_script.js   # Injected automation engine & DOM recorder
 └── panel/
     ├── panel.html             # Side panel UI markup & styles
     └── panel.js               # Panel controller – state, events, rendering
